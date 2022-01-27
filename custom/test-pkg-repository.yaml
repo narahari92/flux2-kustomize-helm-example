@@ -1,9 +1,0 @@
-apiVersion: packaging.carvel.dev/v1alpha1
-kind: PackageRepository
-metadata:
-  namespace: tanzu-package-repo-global
-  name: test-pkg-repo
-spec:
-  fetch:
-    imgpkgBundle:
-      image: projects.registry.vmware.com/tmc/build-integrations/package/repository/e2e-test-unauth-repo@sha256:83406089c64b9b5c801370c8074fc0568026481a69a2b22a2182cc6961acec39
